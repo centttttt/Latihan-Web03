@@ -1,1 +1,133 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
+/* Header */
+header {
+  background-color: #fcd5b5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  border: 2px solid #000000;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/1;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #cfe2ff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Services Section */
+.services {
+  background-color: #fff2cc;
+  text-align: center;
+  padding: 50px 20px;
+  
+}
+
+.btn {
+  border: 2px solid #000;
+  background: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.service-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.box {
+  width: 200px;
+  text-align: left;
+}
+
+/* About Section */
+.about {
+  background-color: #e0d4f7;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.about-content .text,
+.about-content .graphic {
+  width: 300px;
+  text-align: left;
+}
+
+.wave {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.wave svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Contact Section */
+.contact {
+  background-color: #d9ead3;
+  text-align: center;
+  padding: 50px 20px;
+}
+.contact input,
+.contact textarea {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #999;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.send {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #fcd5b5;
+  text-align: center;
+  padding: 15px;
+}
